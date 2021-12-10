@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj": {}
+    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj": {}
   },
   "projects": {
-    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
+    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
+        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
         "projectName": "Uzaktan.Core",
-        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
+        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
         "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
-        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\obj\\",
+        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj": {
+    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
-        "projectName": "Uzaktan.Data.SqlServer",
-        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj",
+        "projectName": "Uzaktan.Data.InMemoryDatabase",
+        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj",
         "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
-        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\obj\\",
+        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,75 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
-                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
+              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
+                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+        "projectName": "Uzaktan.Data.SqlServer",
+        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
+        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
+                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
               }
             }
           }
@@ -132,14 +199,14 @@
         }
       }
     },
-    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj": {
+    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj",
+        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj",
         "projectName": "Uzaktan.UI.ConsoleUI",
-        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj",
+        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
-        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\obj\\",
+        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -159,11 +226,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
-                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
+              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
+                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
               },
-              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj": {
-                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj"
+              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj": {
+                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj"
+              },
+              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj": {
+                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj"
               }
             }
           }

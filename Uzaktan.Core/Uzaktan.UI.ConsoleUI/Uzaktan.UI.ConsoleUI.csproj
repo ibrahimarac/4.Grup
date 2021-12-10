@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Uzaktan.Core\Uzaktan.Core.csproj" />
+    <ProjectReference Include="..\Uzaktan.Data.InMemoryDatabase\Uzaktan.Data.InMemoryDatabase.csproj" />
     <ProjectReference Include="..\Uzaktan.Data.SqlServer\Uzaktan.Data.SqlServer.csproj" />
   </ItemGroup>
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj": {}
+    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj": {}
   },
   "projects": {
-    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
+    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
+        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
         "projectName": "Uzaktan.Core",
-        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
+        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
         "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
-        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\obj\\",
+        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj": {
+    "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+        "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
         "projectName": "Uzaktan.Data.SqlServer",
-        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+        "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
         "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
-        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\obj\\",
+        "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
-                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
+              "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
+                "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
               }
             }
           }

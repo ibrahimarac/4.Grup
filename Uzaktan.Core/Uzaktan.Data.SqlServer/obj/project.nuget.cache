@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D2uVAkzmQrpIMrPyTYFD2cyV/S9uDGrEkokKdSaKBY2mpJd/k1lx2+ikTnt+nG/ULyxPoKKoB/R3su/t/x/qdw==",
+  "dgSpecHash": "8SYM8nG5It9XGQ8zl5E2cFVft29zcCuJCPyZwyGBahnlKS8JqThbRk2qwTR4nEjPCJg/mZWvH/grxbH3htA8bw==",
   "success": true,
-  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

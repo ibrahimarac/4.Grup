@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vzOj0pWd3DdSYOsXbZrbILuopeeu51I/TKB7mNvuCWXfPCLeTlP+EXxyQn+Kus8LP9AaKfVgxdqhqBrBJD/YlQ==",
+  "dgSpecHash": "RZ4Xango4EQ1y3EfphHEG5XnDrQo8AgOswt9jqx30XhJE8tAa6p09DKn+ljHuJjkBZdWERBXsksoMHkqLZh3wQ==",
   "success": true,
-  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj",
+  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.UI.ConsoleUI\\Uzaktan.UI.ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.12\\microsoft.entityframeworkcore.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.12\\microsoft.entityframeworkcore.abstractions.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.12\\microsoft.entityframeworkcore.analyzers.5.0.12.nupkg.sha512",
+    "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.12\\microsoft.entityframeworkcore.inmemory.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.12\\microsoft.entityframeworkcore.relational.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.12\\microsoft.entityframeworkcore.sqlserver.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
