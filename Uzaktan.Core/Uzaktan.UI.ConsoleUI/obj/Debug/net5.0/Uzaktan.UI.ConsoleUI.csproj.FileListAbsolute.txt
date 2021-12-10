@@ -135,3 +135,6 @@ D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uza
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.UI.ConsoleUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.UI.ConsoleUI\bin\Debug\net5.0\Uzaktan.Data.InMemoryDatabase.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.UI.ConsoleUI\bin\Debug\net5.0\Uzaktan.Data.InMemoryDatabase.pdb
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.UI.ConsoleUI\bin\Debug\net5.0\AutoMapper.dll
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.UI.ConsoleUI\bin\Debug\net5.0\Uzaktan.Services.dll
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.UI.ConsoleUI\bin\Debug\net5.0\Uzaktan.Services.pdb

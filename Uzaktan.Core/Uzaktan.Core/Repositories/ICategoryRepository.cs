@@ -11,5 +11,6 @@ namespace Uzaktan.Core.Repositories
         bool DeleteCategory(int id);
         bool UpdateCategory(Category category);
         IEnumerable<Category> GetAllCategories();
+        Category GetById(int id);
     }
 }

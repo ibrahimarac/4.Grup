@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Uzaktan.Core\Uzaktan.Core.csproj" />
+    <ProjectReference Include="..\Uzaktan.Data.InMemoryDatabase\Uzaktan.Data.InMemoryDatabase.csproj" />
+    <ProjectReference Include="..\Uzaktan.Data.SqlServer\Uzaktan.Data.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

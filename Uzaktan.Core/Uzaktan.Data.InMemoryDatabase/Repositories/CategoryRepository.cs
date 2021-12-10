@@ -31,6 +31,11 @@ namespace Uzaktan.Data.InMemoryDatabase.Repositories
             return _context.Categories;
         }
 
+        public Category GetById(int id)
+        {
+            return _context.Categories.Find(id);
+        }
+
         public bool UpdateCategory(Category category)
         {
             _context.Categories.Update(category);

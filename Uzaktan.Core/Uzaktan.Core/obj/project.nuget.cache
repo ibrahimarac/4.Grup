@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RpFfI96eUx0fwy88VFdgOYLc2aNgb2KM+tFI7qXtXU45HZ9yGQHmsKakIXzgcpUIOA97vwCEdrR+Jmvr69pDQw==",
+  "dgSpecHash": "uHrDjPuqsj4avWj+LLC6sBycMofsTG/GVVtVe7lXaDsu2Hx7phpFmlJ3mySjT5ZqRAxi68oYrrqGUq830EfFOA==",
   "success": true,
   "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Ibrahim\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

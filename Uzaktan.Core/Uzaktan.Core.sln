@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzaktan.UI.ConsoleUI", "Uza
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzaktan.Data.InMemoryDatabase", "Uzaktan.Data.InMemoryDatabase\Uzaktan.Data.InMemoryDatabase.csproj", "{4DC87022-827D-4299-A2E1-AA20864E356B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzaktan.Services", "Uzaktan.Services\Uzaktan.Services.csproj", "{FA147A51-DA8A-42EB-9329-E0AE4D9C6225}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4DC87022-827D-4299-A2E1-AA20864E356B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC87022-827D-4299-A2E1-AA20864E356B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DC87022-827D-4299-A2E1-AA20864E356B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA147A51-DA8A-42EB-9329-E0AE4D9C6225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA147A51-DA8A-42EB-9329-E0AE4D9C6225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA147A51-DA8A-42EB-9329-E0AE4D9C6225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA147A51-DA8A-42EB-9329-E0AE4D9C6225}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
