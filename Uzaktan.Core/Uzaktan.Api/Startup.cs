@@ -4,7 +4,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Uzaktan.Core.Mappers;
+using Uzaktan.Core.Repositories;
 using Uzaktan.Core.Service;
+using Uzaktan.Data.SqlServer.Repositories;
 using Uzaktan.Services;
 
 namespace Uzaktan.Api
@@ -23,6 +26,9 @@ namespace Uzaktan.Api
         {
             services.AddControllers();
 
+            //CategoryRepository ekleniyor.
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+
             //CategoryService ekleniyor
             services.AddScoped<ICategoryService, CategoryService>();
 
@@ -30,6 +36,10 @@ namespace Uzaktan.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Uzaktan.Api", Version = "v1" });
             });
+
+            services.AddAutoMapper(
+                typeof(CategoryMapper)    
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

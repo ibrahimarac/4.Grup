@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Uzaktan.Core.Domain.Dto;
+﻿using System.Collections.Generic;
+using Uzaktan.Core.Domain.Dto.Category;
+using Uzaktan.Core.Utilities.Results;
 
 namespace Uzaktan.Core.Service
 {
     public interface ICategoryService
     {
-        CategoryDto AddCategory(CategoryDto categoryDto);
-        bool DeleteCategory(int categoryId);
-        bool UpdateCategory(CategoryDto categoryDto);
-        IEnumerable<CategoryDto> GetAllCategories();
+        IResult AddCategory(CreateCategoryDto categoryDto);
+        IResult DeleteCategory(int categoryId);
+        IResult UpdateCategory(CategoryDto categoryDto);
+        IResult GetAllCategories();
+        IResult GetCategoryById(int id);
     }
 }

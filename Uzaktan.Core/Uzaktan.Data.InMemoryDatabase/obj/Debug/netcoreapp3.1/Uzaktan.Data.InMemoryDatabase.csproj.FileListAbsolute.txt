@@ -10,3 +10,15 @@ D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uza
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.csproj.CopyComplete
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.pdb
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\bin\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.deps.json
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\bin\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.dll
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\bin\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.pdb
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\bin\Debug\netcoreapp3.1\Uzaktan.Core.dll
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\bin\Debug\netcoreapp3.1\Uzaktan.Core.pdb
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.csprojAssemblyReference.cache
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.AssemblyInfoInputs.cache
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.AssemblyInfo.cs
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.csproj.CoreCompileInputs.cache
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.csproj.CopyComplete
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.dll
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.InMemoryDatabase\obj\Debug\netcoreapp3.1\Uzaktan.Data.InMemoryDatabase.pdb

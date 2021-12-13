@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JDt1wj8Uoy2qcM32dF4mw0L0h62vboV81rdSPkxd71hxgPyoZ7t5P9+nc/Af4R0yCIHAq2OwzL8osGcsIt+2jQ==",
+  "dgSpecHash": "IPyx4cDQ5VTNgb0zxg4csqO8RTXjHjwj3EyaIzivAQvDGz6+KU4W3I7teLtTy1MDi4DJE26KlPpQvVv5IkUWXw==",
   "success": true,
-  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\3. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Api\\Uzaktan.Api.csproj",
+  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\4. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Api\\Uzaktan.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

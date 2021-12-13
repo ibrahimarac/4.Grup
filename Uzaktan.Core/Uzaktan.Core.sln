@@ -7,13 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzaktan.Core", "Uzaktan.Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzaktan.Data.SqlServer", "Uzaktan.Data.SqlServer\Uzaktan.Data.SqlServer.csproj", "{73D7D368-0581-462B-A2FC-DEFE4EE45B69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzaktan.UI.ConsoleUI", "Uzaktan.UI.ConsoleUI\Uzaktan.UI.ConsoleUI.csproj", "{B9937522-5E10-456B-B7BF-0D439A1F5741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzaktan.Data.InMemoryDatabase", "Uzaktan.Data.InMemoryDatabase\Uzaktan.Data.InMemoryDatabase.csproj", "{4DC87022-827D-4299-A2E1-AA20864E356B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzaktan.Data.InMemoryDatabase", "Uzaktan.Data.InMemoryDatabase\Uzaktan.Data.InMemoryDatabase.csproj", "{4DC87022-827D-4299-A2E1-AA20864E356B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzaktan.Services", "Uzaktan.Services\Uzaktan.Services.csproj", "{FA147A51-DA8A-42EB-9329-E0AE4D9C6225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzaktan.Services", "Uzaktan.Services\Uzaktan.Services.csproj", "{FA147A51-DA8A-42EB-9329-E0AE4D9C6225}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzaktan.Api", "Uzaktan.Api\Uzaktan.Api.csproj", "{361ED559-66D8-4AD5-A288-A88322F1A2BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uzaktan.Api", "Uzaktan.Api\Uzaktan.Api.csproj", "{361ED559-66D8-4AD5-A288-A88322F1A2BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{73D7D368-0581-462B-A2FC-DEFE4EE45B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73D7D368-0581-462B-A2FC-DEFE4EE45B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73D7D368-0581-462B-A2FC-DEFE4EE45B69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9937522-5E10-456B-B7BF-0D439A1F5741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9937522-5E10-456B-B7BF-0D439A1F5741}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9937522-5E10-456B-B7BF-0D439A1F5741}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9937522-5E10-456B-B7BF-0D439A1F5741}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4DC87022-827D-4299-A2E1-AA20864E356B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4DC87022-827D-4299-A2E1-AA20864E356B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC87022-827D-4299-A2E1-AA20864E356B}.Release|Any CPU.ActiveCfg = Release|Any CPU

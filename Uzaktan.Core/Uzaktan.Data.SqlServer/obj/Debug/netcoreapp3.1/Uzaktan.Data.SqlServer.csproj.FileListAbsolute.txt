@@ -22,3 +22,15 @@ D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uza
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.csproj.CopyComplete
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\3. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.pdb
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\bin\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.deps.json
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\bin\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.dll
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\bin\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.pdb
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\bin\Debug\netcoreapp3.1\Uzaktan.Core.dll
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\bin\Debug\netcoreapp3.1\Uzaktan.Core.pdb
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.csprojAssemblyReference.cache
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.AssemblyInfoInputs.cache
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.AssemblyInfo.cs
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.csproj.CoreCompileInputs.cache
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.csproj.CopyComplete
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.dll
+D:\Kurslar\Eğitim Seti Grubu\4. Grup\4. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.pdb

@@ -1,11 +1,14 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
-using Uzaktan.Core.Domain.Dto;
+using System.Linq;
+using Uzaktan.Core.Domain.Dto.Category;
 using Uzaktan.Core.Domain.Entites;
 using Uzaktan.Core.Mappers;
 using Uzaktan.Core.Repositories;
 using Uzaktan.Core.Service;
-using Uzaktan.Data.SqlServer.Repositories;
+using Uzaktan.Core.Utilities.Results;
 
 namespace Uzaktan.Services
 {
@@ -14,44 +17,73 @@ namespace Uzaktan.Services
         private readonly ICategoryRepository _categoryRepo;
         private readonly IMapper _mapper;
 
-        public CategoryService()
+        public CategoryService(IMapper mapper,ICategoryRepository categoryRepo)
         {
-            _categoryRepo = new CategoryRepository();
-            _mapper = new Mapper(new MapperConfiguration(
-                cfg => cfg.AddProfile(new CategoryMapper())
-             ));
+            _categoryRepo = categoryRepo;
+            _mapper = mapper;
         }
 
-        public CategoryDto AddCategory(CategoryDto categoryDto)
+        public IResult AddCategory(CreateCategoryDto categoryDto)
         {
-            var categoryEntity = _mapper.Map<CategoryDto, Category>(categoryDto);
-            var result= _categoryRepo.AddCategory(categoryEntity);
-            if(result)
+            var categoryEntity = _mapper.Map<CreateCategoryDto, Category>(categoryDto);
+            try
             {
-                return _mapper.Map<Category, CategoryDto>(categoryEntity);
+                _categoryRepo.AddCategory(categoryEntity);
+                var categoryInDbDto = _mapper.Map<Category, CategoryDto>(categoryEntity);
+                return new DataResult<CategoryDto>(true, "Kategori başarıyla eklendi.", categoryInDbDto);
             }
-            return null;
+            catch (Exception ex)
+            {
+                return new DataResult<CategoryDto>(false, ex.InnerException!=null?ex.InnerException.Message: ex.Message, null);
+            }
         }
 
-        public bool DeleteCategory(int categoryId)
+        public IResult DeleteCategory(int categoryId)
         {
-            bool result= _categoryRepo.DeleteCategory(categoryId);
-            return result;
+            try
+            {
+                _categoryRepo.DeleteCategory(categoryId);
+                return new Result(true, $"{categoryId} numaralı kategori başarıyla silindi.");
+            }
+            catch (Exception ex)
+            {
+                return new Result(false, $"{categoryId} numaralı kategori silinirken <{ex.Message}> hatası oluştu.");
+            }
         }
 
-        public IEnumerable<CategoryDto> GetAllCategories()
+        public IResult GetAllCategories()
         {
-            IEnumerable<Category> categoryEntities = _categoryRepo.GetAllCategories();
+            var categoryEntities = _categoryRepo.GetAllCategories();
             var categoryDtos = _mapper.Map<IEnumerable<Category>, IEnumerable<CategoryDto>>(categoryEntities);
-            return categoryDtos;
+            if (categoryDtos.Any())
+                return new DataResult<IEnumerable<CategoryDto>>(true, "", categoryDtos);
+            else
+                return new DataResult<IEnumerable<CategoryDto>>(false, "Kayıtlı kategori bulunamadı.", null);
         }
 
-        public bool UpdateCategory(CategoryDto categoryDto)
+        public IResult GetCategoryById(int id)
+        {
+            var categoryEntity = _categoryRepo.GetById(id);
+            var categoryDto= _mapper.Map<Category, CategoryDto>(categoryEntity);
+            if (categoryDto == null)
+                return new DataResult<CategoryDto>(false, $"{id} numaralı bir kategori bulunamadı.", null);
+            else
+                return new DataResult<CategoryDto>(true, "", categoryDto);
+        }
+
+        public IResult UpdateCategory(CategoryDto categoryDto)
         {
             var categoryEntity = _categoryRepo.GetById(categoryDto.Id);
-            _mapper.Map(categoryDto,categoryEntity);
-            bool result=_categoryRepo.UpdateCategory(categoryEntity);
-            return result;
+            _mapper.Map(categoryDto, categoryEntity);
+            try
+            {
+                _categoryRepo.UpdateCategory(categoryEntity);
+                return new Result(true, "Kategori başarıyla güncellendi.");
+            }
+            catch (Exception ex)
+            {
+                return new Result(false, ex.Message);
+            }            
         }
     }
 }

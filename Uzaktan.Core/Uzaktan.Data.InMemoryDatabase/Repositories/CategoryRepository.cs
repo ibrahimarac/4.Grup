@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Uzaktan.Core.Domain.Entites;
 using Uzaktan.Core.Repositories;
+using Uzaktan.Data.InMemoryDatabase;
 
 namespace Uzaktan.Data.InMemoryDatabase.Repositories
 {
