@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yQQFQ2HVR/HVXJDE05aedv6ZpbJf8LuTQOO06TVP2tKyBciptqiKSEFNqOyejrWuUci4azRUiWzVcG8KDq3zmA==",
+  "dgSpecHash": "jwak/fb38No9ErmRHH9tYEsSm5Uw1ANFzPe34FmrWxLp0vlwLlbUgcmhgjc/RaFl60of/EvrXNRrdM0hL8hUyg==",
   "success": true,
-  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\4. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

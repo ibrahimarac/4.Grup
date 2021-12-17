@@ -1,9 +1,11 @@
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 using Uzaktan.Core.Mappers;
 using Uzaktan.Core.Repositories;
 using Uzaktan.Core.Service;
@@ -25,6 +27,11 @@ namespace Uzaktan.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            //FluentValidation ekleniyor
+            services.AddFluentValidation(v=>v.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
+
+            //Validation Tipler DI container'a ekleniyor
 
             //CategoryRepository ekleniyor.
             services.AddScoped<ICategoryRepository, CategoryRepository>();
