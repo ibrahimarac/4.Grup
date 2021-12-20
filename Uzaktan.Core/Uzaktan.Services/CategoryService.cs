@@ -11,7 +11,12 @@ using Uzaktan.Services.ValidationRules;
 
 namespace Uzaktan.Services
 {
+<<<<<<< HEAD
  
+=======
+    //AOP
+
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
     public class CategoryService : BaseService, ICategoryService
     {
         private readonly ICategoryRepository _categoryRepo;
@@ -78,11 +83,19 @@ namespace Uzaktan.Services
 
         public IResult UpdateCategory(CategoryUpdateRequestDto categoryDto,int id)
         {
+<<<<<<< HEAD
             var validatorResult = Validate<CategoryUpdateValidator, CategoryUpdateRequestDto>(categoryDto);
             if (!validatorResult.Success)
                 return validatorResult;
 
             var categoryEntity = _categoryRepo.GetById(id);
+=======
+            var validatorResult = Validate<CategoryValidator, CategoryDto>(categoryDto);
+            if (!validatorResult.Success)
+                return validatorResult;
+
+            var categoryEntity = _categoryRepo.GetById(categoryDto.Id);
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
             _mapper.Map(categoryDto, categoryEntity);
             try
             {

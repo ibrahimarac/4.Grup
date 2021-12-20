@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ujwhTflJ3II1Atrec7ZxC5FGQ22CYTyHKu9BMCadazi8XznIZim3Fh2pF2WnfCUuXMrj/pPfiicqKDInjkRgRQ==",
   "success": true,
   "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj",
+=======
+  "dgSpecHash": "9xXIiX7LcnED9RdoqLaD8xZ1Nk9IbUTAUE8ipHhYPyJofiAqGXRBaJaX2tiGqgWENoqavk/7BZdNb+NhqYrlRQ==",
+  "success": true,
+  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj",
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

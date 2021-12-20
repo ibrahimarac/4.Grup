@@ -1,18 +1,27 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "g4q42Zx5e4CyJuCsxG7DSsGNrCiAgvexryRjUxRh/M/L0hKLMQ9C8YbMtE1juUkYb3LlTGpzz+vUDXOrKA3Jpw==",
   "success": true,
   "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Api\\Uzaktan.Api.csproj",
+=======
+  "dgSpecHash": "ObAL44V/+kEUA6th5Gp5u2RKehJdvDrAlwAdT7kkOtqg7Y4cud84ZaLbqQhvDFKDwr3svnB1aVUuzwqVqfAlng==",
+  "success": true,
+  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Api\\Uzaktan.Api.csproj",
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.13\\microsoft.aspnetcore.authentication.jwtbearer.5.0.13.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.12\\microsoft.aspnetcore.cryptography.keyderivation.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.12\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.12.nupkg.sha512",
+=======
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

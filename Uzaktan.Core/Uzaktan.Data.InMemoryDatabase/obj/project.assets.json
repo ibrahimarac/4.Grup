@@ -749,11 +749,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj",
       "projectName": "Uzaktan.Data.InMemoryDatabase",
       "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj",
       "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
       "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\obj\\",
+=======
+      "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj",
+      "projectName": "Uzaktan.Data.InMemoryDatabase",
+      "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\Uzaktan.Data.InMemoryDatabase.csproj",
+      "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
+      "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.InMemoryDatabase\\obj\\",
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -773,8 +781,13 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
               "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
+=======
+            "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj": {
+              "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj"
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
             }
           }
         }

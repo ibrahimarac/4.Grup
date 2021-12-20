@@ -49,11 +49,19 @@ namespace Uzaktan.Api.Controllers
                 return BadRequest(result);
         }
 
+<<<<<<< HEAD
         [Route("update/{id}")]
         [HttpPut]
         public IActionResult UpdateCategory([FromBody]CategoryUpdateRequestDto categoryDto,[FromRoute]int id)
         {            
             var result=_categoryService.UpdateCategory(categoryDto,id);
+=======
+        [Route("update")]
+        [HttpPost]
+        public IActionResult UpdateCategory(CategoryDto categoryDto)
+        {            
+            var result=_categoryService.UpdateCategory(categoryDto);
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
             if (result.Success)
                 return Ok(result);
             else

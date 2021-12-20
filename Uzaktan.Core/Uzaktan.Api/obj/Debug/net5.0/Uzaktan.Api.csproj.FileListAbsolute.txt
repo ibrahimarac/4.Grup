@@ -210,6 +210,7 @@ D:\Kurslar\Eğitim Seti Grubu\4. Grup\5. Gün\Uygulamalar\Proje\Uzaktan.Core\Uza
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\5. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\FluentValidation.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\5. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\5. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+<<<<<<< HEAD
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\appsettings.Development.json
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\appsettings.json
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\Uzaktan.Api.exe
@@ -288,3 +289,5 @@ D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uza
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+=======
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6

@@ -1,16 +1,25 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "oZU3dKJJ8lLbewaDWkMiwcmNvUFYdXsQkFh4xYccryybwKJOZT5YozhbQhr8/rz9dwjJx+2HNGFLXOSZhD3BMQ==",
   "success": true,
   "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Services\\Uzaktan.Services.csproj",
+=======
+  "dgSpecHash": "P0QTCGlqMDqF9AvAD3tn+sMhlL4s7gUEx6xIMvKfEmrcx0Rqg4CkAu4EpyVUkczuxS36IwNMfPY5yqEIHNK3+g==",
+  "success": true,
+  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Services\\Uzaktan.Services.csproj",
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.12\\microsoft.aspnetcore.cryptography.keyderivation.5.0.12.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.12\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.12.nupkg.sha512",
+=======
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

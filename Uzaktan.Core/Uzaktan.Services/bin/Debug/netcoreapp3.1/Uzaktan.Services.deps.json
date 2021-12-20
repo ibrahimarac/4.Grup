@@ -63,6 +63,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Cryptography.Internal/5.0.12": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -94,6 +95,8 @@
           }
         }
       },
+=======
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/2.0.1": {
         "dependencies": {
@@ -1174,6 +1177,7 @@
       "path": "fluentvalidation.dependencyinjectionextensions/10.3.6",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.12": {
       "type": "package",
       "serviceable": true,
@@ -1195,6 +1199,8 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/5.0.12",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.5.0.12.nupkg.sha512"
     },
+=======
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,

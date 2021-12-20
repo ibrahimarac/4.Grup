@@ -188,11 +188,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
       "projectName": "Uzaktan.Core",
       "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
       "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
       "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\obj\\",
+=======
+      "projectUniqueName": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
+      "projectName": "Uzaktan.Core",
+      "projectPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\Uzaktan.Core.csproj",
+      "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
+      "outputPath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Core\\obj\\",
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

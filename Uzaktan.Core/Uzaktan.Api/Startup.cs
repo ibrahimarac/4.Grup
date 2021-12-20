@@ -1,5 +1,8 @@
 using FluentValidation.AspNetCore;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+=======
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -9,7 +12,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+<<<<<<< HEAD
 using System.Text;
+=======
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
 using Uzaktan.Core.Mappers;
 using Uzaktan.Core.Repositories;
 using Uzaktan.Core.Service;

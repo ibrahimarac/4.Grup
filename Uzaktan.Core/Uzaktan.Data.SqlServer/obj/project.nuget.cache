@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "vqGIz0hbYKyzJZTAb41GaHWbB2kowAybAoSnvttJ2RKgkeeRYbrgvM6mNe6NP5801X3AsNhsa117c/4s+tOzfA==",
   "success": true,
   "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\6. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+=======
+  "dgSpecHash": "jwak/fb38No9ErmRHH9tYEsSm5Uw1ANFzPe34FmrWxLp0vlwLlbUgcmhgjc/RaFl60of/EvrXNRrdM0hL8hUyg==",
+  "success": true,
+  "projectFilePath": "D:\\Kurslar\\Eğitim Seti Grubu\\4. Grup\\5. Gün\\Uygulamalar\\Proje\\Uzaktan.Core\\Uzaktan.Data.SqlServer\\Uzaktan.Data.SqlServer.csproj",
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",

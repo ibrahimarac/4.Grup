@@ -46,6 +46,7 @@ D:\Kurslar\Eğitim Seti Grubu\4. Grup\5. Gün\Uygulamalar\Proje\Uzaktan.Core\Uza
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\5. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.csproj.CopyComplete
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\5. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\5. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.pdb
+<<<<<<< HEAD
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\bin\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.deps.json
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\bin\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\bin\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.pdb
@@ -58,3 +59,5 @@ D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uza
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.csproj.CopyComplete
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.dll
 D:\Kurslar\Eğitim Seti Grubu\4. Grup\6. Gün\Uygulamalar\Proje\Uzaktan.Core\Uzaktan.Data.SqlServer\obj\Debug\netcoreapp3.1\Uzaktan.Data.SqlServer.pdb
+=======
+>>>>>>> 218d2fe05b357eafa4273f988f16f8c8ac457bf6
