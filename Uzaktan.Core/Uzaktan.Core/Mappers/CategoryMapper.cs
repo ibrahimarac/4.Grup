@@ -14,6 +14,9 @@ namespace Uzaktan.Core.Mappers
 
             CreateMap<CreateCategoryDto, Category>();
             CreateMap<Category, CreateCategoryDto>();
+
+            CreateMap<CategoryUpdateRequestDto, Category>();
+            CreateMap<Category, CategoryUpdateRequestDto>();
         }
     }
 }

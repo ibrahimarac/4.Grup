@@ -8,7 +8,7 @@ namespace Uzaktan.Core.Service
     {
         IResult AddCategory(CreateCategoryDto categoryDto);
         IResult DeleteCategory(int categoryId);
-        IResult UpdateCategory(CategoryDto categoryDto);
+        IResult UpdateCategory(CategoryUpdateRequestDto categoryDto,int id);
         IResult GetAllCategories();
         IResult GetCategoryById(int id);
     }

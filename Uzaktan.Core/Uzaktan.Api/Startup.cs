@@ -1,12 +1,19 @@
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
+using System.Text;
 using Uzaktan.Core.Mappers;
 using Uzaktan.Core.Repositories;
 using Uzaktan.Core.Service;
+using Uzaktan.Data.SqlServer;
 using Uzaktan.Data.SqlServer.Repositories;
 using Uzaktan.Services;
 
@@ -24,13 +31,50 @@ namespace Uzaktan.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Jwt Token için eklenen ifadeler
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["Jwt:Issuer"],
+                        ValidAudience = Configuration["Jwt:Issuer"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+                    };
+                });
+
+            services.AddDbContext<MembershipContext>();
+
+            services.AddIdentity<IdentityUser, IdentityRole>(opt=> {
+                opt.User.RequireUniqueEmail = true;
+                opt.Password.RequiredLength = 4;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequiredUniqueChars = 0;
+                opt.Password.RequireLowercase = false;
+            }).AddEntityFrameworkStores<MembershipContext>();
+
+
             services.AddControllers();
+
+            //FluentValidation ekleniyor
+            services.AddFluentValidation(v=>v.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
+
+            //Validation Tipler DI container'a ekleniyor
 
             //CategoryRepository ekleniyor.
             services.AddScoped<ICategoryRepository, CategoryRepository>();
 
             //CategoryService ekleniyor
             services.AddScoped<ICategoryService, CategoryService>();
+
+            //CategoryService ekleniyor
+            services.AddScoped<IAccountService, AccountService>();
 
             services.AddSwaggerGen(c =>
             {
@@ -51,6 +95,8 @@ namespace Uzaktan.Api
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Uzaktan.Api v1"));
             }
+
+            app.UseAuthentication();
 
             app.UseHttpsRedirection();
 

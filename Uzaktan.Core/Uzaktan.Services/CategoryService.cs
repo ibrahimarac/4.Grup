@@ -1,18 +1,18 @@
 ﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Uzaktan.Core.Domain.Dto.Category;
 using Uzaktan.Core.Domain.Entites;
-using Uzaktan.Core.Mappers;
 using Uzaktan.Core.Repositories;
 using Uzaktan.Core.Service;
 using Uzaktan.Core.Utilities.Results;
+using Uzaktan.Services.ValidationRules;
 
 namespace Uzaktan.Services
 {
-    public class CategoryService : ICategoryService
+ 
+    public class CategoryService : BaseService, ICategoryService
     {
         private readonly ICategoryRepository _categoryRepo;
         private readonly IMapper _mapper;
@@ -23,8 +23,13 @@ namespace Uzaktan.Services
             _mapper = mapper;
         }
 
+        
         public IResult AddCategory(CreateCategoryDto categoryDto)
         {
+            var validatorResult = Validate<CreateCategoryValidator, CreateCategoryDto>(categoryDto);
+            if (!validatorResult.Success)
+                return validatorResult;
+
             var categoryEntity = _mapper.Map<CreateCategoryDto, Category>(categoryDto);
             try
             {
@@ -71,9 +76,13 @@ namespace Uzaktan.Services
                 return new DataResult<CategoryDto>(true, "", categoryDto);
         }
 
-        public IResult UpdateCategory(CategoryDto categoryDto)
+        public IResult UpdateCategory(CategoryUpdateRequestDto categoryDto,int id)
         {
-            var categoryEntity = _categoryRepo.GetById(categoryDto.Id);
+            var validatorResult = Validate<CategoryUpdateValidator, CategoryUpdateRequestDto>(categoryDto);
+            if (!validatorResult.Success)
+                return validatorResult;
+
+            var categoryEntity = _categoryRepo.GetById(id);
             _mapper.Map(categoryDto, categoryEntity);
             try
             {

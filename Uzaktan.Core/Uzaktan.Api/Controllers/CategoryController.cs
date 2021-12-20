@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using Uzaktan.Core.Domain.Dto.Category;
 using Uzaktan.Core.Service;
+using Uzaktan.Services.ValidationRules;
 
 namespace Uzaktan.Api.Controllers
 {
@@ -49,11 +49,11 @@ namespace Uzaktan.Api.Controllers
                 return BadRequest(result);
         }
 
-        [Route("update")]
-        [HttpPost]
-        public IActionResult UpdateCategory(CategoryDto categoryDto)
-        {
-            var result=_categoryService.UpdateCategory(categoryDto);
+        [Route("update/{id}")]
+        [HttpPut]
+        public IActionResult UpdateCategory([FromBody]CategoryUpdateRequestDto categoryDto,[FromRoute]int id)
+        {            
+            var result=_categoryService.UpdateCategory(categoryDto,id);
             if (result.Success)
                 return Ok(result);
             else
